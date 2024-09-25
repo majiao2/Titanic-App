@@ -8,7 +8,7 @@ plt.style.use('seaborn-v0_8')
 st.title("Titanic App by Jiao Ma")
 
 # read csv and show the dataframe
-train = pd.read_csv(r"In-class_Assignment_5\train.csv")
+train = pd.read_csv("train.csv")
 st.dataframe(train)
 
 # create a figure with three subplots, size should be (15, 5)
